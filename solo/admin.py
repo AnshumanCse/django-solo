@@ -3,6 +3,7 @@ from django.contrib import admin
 from django.http import HttpResponseRedirect
 from django.utils.encoding import force_str
 from django.utils.translation import gettext as _
+from django.https import HttpsResponseRedirect
 
 from solo.models import DEFAULT_SINGLETON_INSTANCE_ID
 from solo import settings as solo_settings
